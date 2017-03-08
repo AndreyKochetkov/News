@@ -138,4 +138,9 @@ public class MainActivity extends AppCompatActivity implements ServiceHelper.Cal
             scheduler.unschedule(this, intent);
         }
     }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        serviceHelper.setCallback(null);
+    }
 }
