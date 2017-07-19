@@ -1,3 +1,5 @@
-# android_rk_1
+# News application
 
-first app in android course
+### the simplest news application for android
+
+just exploring android
